@@ -30,7 +30,7 @@ As You Now Know,I'm Prashant Pandey,& I'm a software engineer 👨‍💻 who is
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white&style=for-the-badge)
 ![WordPress](https://img.shields.io/badge/WordPress-21759B?logo=wordpress&logoColor=white&style=for-the-badge)
 ![Canva](https://img.shields.io/badge/Canva-00C4CC?logo=canva&logoColor=white&style=for-the-badge)
-![OpenUSD](https://img.shields.io/badge/OpenUSD-NVIDIA-76B900?style=flat&logo=NVIDIA&logoColor=green)
+![OpenUSD](https://img.shields.io/badge/OpenUSD%20|%20NVIDIA-76B900?style=for-the-badge&logo=nvidia&logoColor=green)
 ![Netlify](https://img.shields.io/badge/Netlify-00C7B7?logo=netlify&logoColor=white&style=for-the-badge)
 
 ## 💬 Contact
