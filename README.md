@@ -8,7 +8,7 @@ As You Now Know,I'm Prashant & I'm a software engineer 👨‍💻 who is passio
 
 - 🔭 I’m currently working on Android Apps
 - 🌱 I’m currently learning Java
-- 💬 Ask me about: tech, memes, anime
+- 💬 Ask me about: tech, movies, memes, philosophy, architecture
 - ⚡ Languages: Java, C, Python3
 
 ## 🌐 Socials
