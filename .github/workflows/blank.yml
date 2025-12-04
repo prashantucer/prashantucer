@@ -74,13 +74,13 @@ jobs:
 
           # People
           plugin_people: yes
-          plugin_people_limit: 10
-          plugin_people_size: 25
+          plugin_people_limit: 5
+          plugin_people_size: 5
           plugin_people_types: followers, following
 
           # Stars
           plugin_stars: yes
-          plugin_stars_limit: 5
+          plugin_stars_limit: 4
 
       - name: Strip footer line from SVG
         run: |
