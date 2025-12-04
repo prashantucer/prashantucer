@@ -16,17 +16,17 @@ jobs:
       contents: write
 
     steps:
-      # 1) Repo checkout (needed for editing + committing SVG)
+      # 1) Repo checkout (zaroori for editing + committing)
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2) Generate metrics SVG (no auto-commit)
+      # 2) Metrics generate (auto-commit off)
       - name: Generate metrics SVG
         uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: github-metrics.svg
-          output_action: none   # we'll edit + commit ourselves
+          output_action: none   # we will edit & commit manually
 
           # Base
           user: prashantucer
@@ -74,21 +74,31 @@ jobs:
 
           # People
           plugin_people: yes
-          plugin_people_limit: 5
-          plugin_people_size: 5
+          plugin_people_limit: 10
+          plugin_people_size: 25
           plugin_people_types: followers, following
 
           # Stars
           plugin_stars: yes
           plugin_stars_limit: 4
 
-      - name: Strip footer line from SVG
+      # 3) Footer line rmv + hamesha custom timestamp update
+      - name: Strip footer and force SVG change
         run: |
-          sed -i '/Last updated .*lowlighter\/metrics@/d' github-metrics.svg
+          # Footer-like line remove
+          sed -i '/Last updated .*lowlighter\/metrics@/d' github-metrics.svg || true
 
+          # Har run pe apna timestamp comment update/insert
+          TS="$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
+          if grep -q 'Updated by metrics workflow:' github-metrics.svg; then
+            # Purana timestamp replace karo
+            sed -i "s/Updated by metrics workflow:.*/Updated by metrics workflow: ${TS}/" github-metrics.svg
+          else
+            # Naya comment closing </svg> se pehle inject
+            sed -i "s@</svg>@<!-- Updated by metrics workflow: ${TS} -->\n</svg>@" github-metrics.svg
+          fi
 
-
-
+      # 4) Commit + push updated SVG (ab hamesha diff hoga)
       - name: Commit and push metrics
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -96,5 +106,5 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add github-metrics.svg
-          git commit -m "chore: update metrics [skip ci]" || exit 0
+          git commit -m "chore: update metrics [skip ci]"
           git push
