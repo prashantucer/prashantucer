@@ -37,6 +37,7 @@ As You Now Know,I'm Prashant & I'm a software engineer 👨‍💻 who is passio
 📧 Email: <a href="mailto:prashantpandeyucer@gmail.com" target="_blank">prashantpandeyucer@gmail.com</a><br>
 📁 Linktree: <a href="https://linktr.ee/prashantpandey1" target="_blank">linktr.ee/prashantpandey1</a>
 
+<p align="center"><img src="/github-metrics.svg" alt="Metrics" width="400"></p>
 
 ---
 
