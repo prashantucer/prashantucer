@@ -2,7 +2,7 @@ name: Metrics
 
 on:
   schedule:
-    - cron: "0 * * * *"   # Hourly updates
+    - cron: "0 * * * *"   # runs hourly
   workflow_dispatch:
   push:
     branches:
@@ -16,77 +16,50 @@ jobs:
       contents: write
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Generate metrics SVG
-        uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: github-metrics.svg
-          output_action: none
+          output_action: none   # ❗ no commits, no repo writes
 
-          # Base
+          # Base config
           user: prashantucer
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Calcutta
 
-          # ⚠ CHESS TEMP OFF
+          # Chess TEMP OFF
           # plugin_chess: yes
           # plugin_chess_platform: lichess.org
           # plugin_chess_user: A_XEVIL_WRATH_PP
           # plugin_chess_token: ${{ secrets.CHESS_TOKEN }}
           # plugin_chess_animation: '{"size":40,"delay":3,"duration":0.6}'
 
-          # Fortune
+          # Plugins
           plugin_fortune: yes
 
-          # Introduction
           plugin_introduction: yes
           plugin_introduction_title: yes
 
-          # Isocalendar
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
 
-          # Languages
           plugin_languages: yes
           plugin_languages_limit: 8
           plugin_languages_threshold: "0%"
 
-          # LeetCode
           plugin_leetcode: yes
           plugin_leetcode_user: prashantucer
           plugin_leetcode_sections: solved
           plugin_leetcode_limit_recent: 2
 
-          # People
           plugin_people: yes
           plugin_people_limit: 10
           plugin_people_size: 25
           plugin_people_types: followers, following
 
-          # Stars
           plugin_stars: yes
           plugin_stars_limit: 4
 
-      # Footer line safe tareeke se removed
-      - name: Remove metrics footer line
-        run: |
-          sed -i '/Last updated .*lowlighter\/metrics@/d' github-metrics.svg || true
-
-      # Har run ke liye alag timestamp file
-      - name: Write run timestamp file
-        run: |
-          date -u +"%Y-%m-%dT%H:%M:%SZ" > .metrics-last-run.txt
-
-      - name: Commit and push metrics
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add github-metrics.svg .metrics-last-run.txt
-          git commit -m "update metrics svg [skip ci]" || true
-          git push
+          # Footer OFF
+          config_display_footer: no
