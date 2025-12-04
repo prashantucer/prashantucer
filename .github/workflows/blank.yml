@@ -80,7 +80,7 @@ jobs:
 
           # Stars
           plugin_stars: yes
-          plugin_stars_limit: 4
+          plugin_stars_limit: 5
 
       - name: Strip footer line from SVG
         run: |
