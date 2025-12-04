@@ -41,7 +41,7 @@ jobs:
 
           plugin_chess: yes
           plugin_chess_platform: lichess.org
-          plugin_chess_user: prashantucer
+          plugin_chess_user: A_XEVIL_WRATH_PP
           
           plugin_chess_animation_size: 40
           plugin_chess_animation_delay: 3
