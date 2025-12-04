@@ -70,15 +70,6 @@ jobs:
           plugin_people_size: 25
           plugin_people_types: followers, following
 
-          # Screenshot (hero-like crop inside SVG)
-          plugin_screenshot: yes
-          plugin_screenshot_background: yes
-          plugin_screenshot_mode: image
-          plugin_screenshot_title: Portfolio
-          plugin_screenshot_url: https://prashant-dev.netlify.app/
-          plugin_screenshot_selector: body
-          plugin_screenshot_viewport: '{"width":1365,"height":768}'
-
           # Stars
           plugin_stars: yes
           plugin_stars_limit: 4
