@@ -1,5 +1,8 @@
 ## Hi there 👋
   # I'm Prashant Pandey  
+
+  <p align="center"><img src="/github-metrics.svg" alt="Metrics" width="600"></p>
+  
 [![Linkedin Badge](https://img.shields.io/badge/-PrashantPandey-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/prashantpandey7/)](https://www.linkedin.com/in/prashantpandey7/)
 [![Gmail Badge](https://img.shields.io/badge/-prashantpandeyucer@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:prashantpandeyucer@gmail.com)](mailto:prashantpandeyucer@gmail.com)
 
@@ -36,11 +39,6 @@ As You Now Know,I'm Prashant & I'm a software engineer 👨‍💻 who is passio
 
 📧 Email: <a href="mailto:prashantpandeyucer@gmail.com" target="_blank">prashantpandeyucer@gmail.com</a><br>
 📁 Linktree: <a href="https://linktr.ee/prashantpandey1" target="_blank">linktr.ee/prashantpandey1</a>
-
-<p align="center"><img src="/github-metrics.svg" alt="Metrics" width="400"></p>
-
----
-
 
 > El Psy Kongroo
 
