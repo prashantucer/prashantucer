@@ -16,7 +16,7 @@ jobs:
       contents: write
 
     steps:
-      # 1) Repo checkout (zaroori for editing + committing)
+      # 1) Repo checkout (zaroori for editing + commitss)
       - name: Checkout repository
         uses: actions/checkout@v4
 
@@ -34,12 +34,12 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Calcutta
 
-          # Chess
-          plugin_chess: yes
-          plugin_chess_platform: lichess.org
-          plugin_chess_user: A_XEVIL_WRATH_PP
-          plugin_chess_token: ${{ secrets.CHESS_TOKEN }}
-          plugin_chess_animation: '{"size":40,"delay":3,"duration":0.6}'
+          # Chess currently off
+          #plugin_chess: yes
+          #plugin_chess_platform: lichess.org
+          #plugin_chess_user: A_XEVIL_WRATH_PP
+          #plugin_chess_token: ${{ secrets.CHESS_TOKEN }}
+          #plugin_chess_animation: '{"size":40,"delay":3,"duration":0.6}'
 
           # Fortune
           plugin_fortune: yes
@@ -98,7 +98,7 @@ jobs:
             sed -i "s@</svg>@<!-- Updated by metrics workflow: ${TS} -->\n</svg>@" github-metrics.svg
           fi
 
-      # 4) Commit + push updated SVG (ab hamesha diff hoga)
+      # 4) Commit + push updated SVG (ab hamesha diff rhega)
       - name: Commit and push metrics
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
