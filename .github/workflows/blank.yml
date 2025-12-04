@@ -2,7 +2,7 @@ name: Metrics
 
 on:
   schedule:
-    - cron: "0 * * * *"
+    - cron: "0 * * * *"   # Hourly updates
   workflow_dispatch:
   push:
     branches:
@@ -32,9 +32,7 @@ jobs:
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Calcutta
 
-          # ------------------------------
-          # 🔴 CHESS TEMPORARILY DISABLED
-          # ------------------------------
+          # ⚠ CHESS TEMP OFF
           # plugin_chess: yes
           # plugin_chess_platform: lichess.org
           # plugin_chess_user: A_XEVIL_WRATH_PP
@@ -73,22 +71,15 @@ jobs:
           plugin_stars: yes
           plugin_stars_limit: 4
 
-      # ------------------------------------------------
-      # REMOVE FOOTER + FORCE CHANGE (NO COMMENT ERRORS)
-      # ------------------------------------------------
-      - name: Strip footer and force SVG change
+      # Footer line safe tareeke se removed
+      - name: Remove metrics footer line
         run: |
-          # Remove footer line
           sed -i '/Last updated .*lowlighter\/metrics@/d' github-metrics.svg || true
 
-          # Add XML-safe timestamp attribute (no comment → no SVG corruption)
-          TS=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
-
-          if grep -q 'data-metrics-update=' github-metrics.svg; then
-            sed -i "s/data-metrics-update=\"[^\"]*\"/data-metrics-update=\"${TS}\"/" github-metrics.svg
-          else
-            sed -i "s/<svg /<svg data-metrics-update=\"${TS}\" /" github-metrics.svg
-          fi
+      # Har run ke liye alag timestamp file
+      - name: Write run timestamp file
+        run: |
+          date -u +"%Y-%m-%dT%H:%M:%SZ" > .metrics-last-run.txt
 
       - name: Commit and push metrics
         env:
@@ -96,6 +87,6 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add github-metrics.svg
+          git add github-metrics.svg .metrics-last-run.txt
           git commit -m "update metrics svg [skip ci]" || true
           git push
