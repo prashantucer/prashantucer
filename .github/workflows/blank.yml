@@ -33,14 +33,7 @@ jobs:
           template: classic
           base: header, activity, community, repositories, metadata
           config_timezone: Asia/Calcutta
-
-          # 🔴 Chess temporary OFF
-          # plugin_chess: yes
-          # plugin_chess_platform: lichess.org
-          # plugin_chess_user: A_XEVIL_WRATH_PP
-          # plugin_chess_token: ${{ secrets.CHESS_TOKEN }}
-          # plugin_chess_animation: '{"size":40,"delay":3,"duration":0.6}'
-
+          
           # Fortune
           plugin_fortune: yes
 
