@@ -37,7 +37,7 @@ As You Now Know,I'm Prashant & I'm a software engineer 👨‍💻 who is passio
 
 📧 Email: <a href="mailto:prashantpandeyucer@gmail.com" target="_blank">Tap for Direct Mail!</a><br>
 📁 Linktree: <a href="https://linktr.ee/prashantpandey1" target="_blank">Tap to Redirect!</a><br>
-🏢 Portfolio: <a href="https://prashant-dev.netlify.app/" target="_blank">Prashant_developer!!</a>
+🏢 Portfolio: <a href="https://prashantpandey.me/" target="_blank">Portfolio!!</a>
 
 ## 📊Statistics
 
