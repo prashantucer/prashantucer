@@ -1,62 +1,117 @@
-## Hi there 👋
-  # I'm Prashant Pandey  
-  
-[![Linkedin Badge](https://img.shields.io/badge/-PrashantPandey-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/prashantpandey7/)](https://www.linkedin.com/in/prashantpandey7/)
-[![Gmail Badge](https://img.shields.io/badge/-prashantpandeyucer@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:prashantpandeyucer@gmail.com)](mailto:prashantpandeyucer@gmail.com)
+<div align="center">
 
-As You Now Know,I'm Prashant & I'm a software engineer 👨‍💻 who is passionate about mobile technologies and open source. I'm also a self proclaimed graphic designer and internet surfer 
-🏄‍♂️. 
+<!-- Animated typing header -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=6C63FF&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+Prashant+Pandey;Software+Engineer+%7C+Builder;I+love+clean+code+%26+good+coffee" alt="Typing SVG" />
 
-- 🔭 I’m currently working on Android Apps
-- 🌱 I’m currently learning Java
-- 💬 Ask me about: tech, movies, memes, philosophy, architecture
-- ⚡ Languages: Java, C, Python3
+<br/>
 
-## 🌐 Socials
+<img src="https://img.shields.io/github/followers/prashantucer?label=Follow&style=social" />
+<img src="https://komarev.com/ghpvc/?username=prashantucer&color=6C63FF&style=flat-square&label=Profile+Views" />
 
-<p align="left">
-<a href="https://www.linkedin.com/in/prashantpandey7/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="https://www.instagram.com/prashantucer/" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/></a>
-<a href="https://github.com/prashantucer" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
-<a href="mailto:prashantpandeyucer@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="https://x.com/patrioticpoison" target="_blank"><img src="https://img.shields.io/badge/X-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="X"/></a>
+</div>
 
-## 🛠 Tech Stack
+<br/>
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge)
-![C](https://img.shields.io/badge/C-00599C?logo=c&logoColor=white&style=for-the-badge)
-![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white&style=for-the-badge)
-![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white&style=for-the-badge)
-![Figma](https://img.shields.io/badge/Figma-F24E1E?logo=figma&logoColor=white&style=for-the-badge)
-![WordPress](https://img.shields.io/badge/WordPress-21759B?logo=wordpress&logoColor=white&style=for-the-badge)
-![Canva](https://img.shields.io/badge/Canva-00C4CC?logo=canva&logoColor=white&style=for-the-badge)
-![OpenUSD](https://img.shields.io/badge/OpenUSD%20|%20NVIDIA-76B900?style=for-the-badge&logo=nvidia&logoColor=green)
-![Netlify](https://img.shields.io/badge/Netlify-00C7B7?logo=netlify&logoColor=white&style=for-the-badge)
+## About Me
 
-## 💬 Contact
+- Currently working on **ExoVisionAI**
+- Currently learning **Machine Learning**
+- Ask me about **Tech, movies, memes, philosophy, architecture**
+- Reach me at **prashantpandey.me**
+- Languages **Java, C, Python3**
 
-📧 Email: <a href="mailto:prashantpandeyucer@gmail.com" target="_blank">Tap for Direct Mail!</a><br>
-📁 Linktree: <a href="https://linktr.ee/prashantpandey1" target="_blank">Tap to Redirect!</a><br>
-🏢 Portfolio: <a href="https://prashantpandey.me/" target="_blank">Portfolio!!</a>
+<br/>
 
-## 📊Statistics
+## Tech Stack
 
-   <p align="center"><img src="/github-metrics.svg" alt="Metrics" width="600"></p>
+<div align="center">
 
-> El Psy Kongroo
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white)
+![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
+![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
------
-<!--
-**prashantucer/prashantucer** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+</div>
 
-Here are some ideas to get you started:
+<br/>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Statistics
+
+<div align="center">
+
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=prashantucer&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prashantucer&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
+
+<br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=prashantucer&theme=tokyonight&hide_border=true" />
+
+</div>
+
+<br/>
+
+## Contribution Activity
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=prashantucer&theme=tokyo-night&hide_border=true&area=true" width="100%"/>
+
+</div>
+
+<br/>
+
+## GitHub Trophies
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=prashantucer&theme=tokyonight&no-frame=true&row=1&column=7&margin-w=10" />
+
+</div>
+
+<br/>
+
+## Contact
+
+Email: <a href="mailto:prashantpandeyucer@gmail.com" target="_blank">Tap for Direct Mail!</a><br>
+Linktree: <a href="https://linktr.ee/prashantpandey1" target="_blank">Tap to Redirect!</a><br>
+Portfolio: <a href="https://prashantpandey.me/" target="_blank">Portfolio!!</a>
+
+<br/>
+
+<div align="center">
+
+<a href="https://instagram.com/prashantucer" target="_blank">
+  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+</a>
+<a href="https://linkedin.com/in/prashantpandey7" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+</a>
+<a href="https://x.com/patrioticpoison" target="_blank">
+  <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" />
+</a>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+![Snake animation](https://raw.githubusercontent.com/prashantucer/prashantucer/output/github-contribution-grid-snake.svg)
+
+</div>
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=6C63FF&height=120&section=footer" width="100%"/>
+
+</div>
+
+<div align="center">
+<sub>If you like what you see, consider giving my repos a star!</sub>
+</div>
