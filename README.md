@@ -45,7 +45,7 @@
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=prashantucer&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=prashantucer&show_icons=true&theme=tokyonight&hide_border=true" />
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prashantucer&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" />
 
 <br/>
@@ -86,13 +86,13 @@ Portfolio: <a href="https://prashantpandey.me/" target="_blank">Portfolio!!</a>
 
 <div align="center">
 
-<a href="https://instagram.com/prashantucer" target="_blank">
+<a href="https://instagram.com/YOUR_INSTA_HANDLE" target="_blank">
   <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
 </a>
-<a href="https://linkedin.com/in/prashantpandey7" target="_blank">
+<a href="https://linkedin.com/in/YOUR_LINKEDIN_HANDLE" target="_blank">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
-<a href="https://x.com/patrioticpoison" target="_blank">
+<a href="https://x.com/YOUR_X_HANDLE" target="_blank">
   <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" />
 </a>
 
