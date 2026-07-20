@@ -17,7 +17,7 @@
 - Currently working on **ExoVisionAI**
 - Currently learning **Machine Learning**
 - Ask me about **Tech, movies, memes, philosophy, architecture**
-- Reach me at **prashantpandey.me**
+- Reach me at **<https://prashantpandey.me>**
 - Languages **Java, C, Python3**
 
 <br/>
